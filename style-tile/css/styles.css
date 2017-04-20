@@ -1,22 +1,64 @@
+
 /***************/
 /* YOUR STYLES */
 /***************/
 
 /* Color Palette */
+div.color-1 {
+    background: tomato;
+}
 
+div.color-2 {
+    background: goldenrod;
+}
+
+div.color-3 {
+    background: lavender;
+}
 
 /* Textures or Patterns*/
+div.pattern-1 {
+    background: url("../img/grid-bg.png");
+}
 
-
+div.pattern-3 {
+    background: url("../img/icon-sample.svg");
+}
 /* Imagery */
-
+.imagery-1 img {
+    border: none;
+    box-shadow: 0 0 10px 0 #333;
+}
 
 /* Icons */
 
 
 /* Navigation */
-
-
+a:link {
+    text-decoration: none;
+    color: crimson;
+}
+a:visited {
+    text-decoration: none;
+    color:burlywood;
+}
+a:focus{
+    background-color: aliceblue
+}
+a:hover{
+    border-bottom: 4px solid antiquewhite;
+}
+a:active{
+    
+}
 /* Typography */
 
+h1{
+    font-family: 'Sigmar One', cursive;
+    color: goldenrod
 
+}
+
+p{
+    line-height: 1.5em
+}
