@@ -1,4 +1,14 @@
 /* Styling */
-body {
-    background: rgba(0, 240, 194, 0.71);
+
+h1{
+    color: goldenrod;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Ranga', cursive;
+
 }
+video{
+   margin-top: 20px 0px 0px 20px;
+    
+}
+
